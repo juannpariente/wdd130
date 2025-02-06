@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #003190;
+    --secondary-color: #FF2B24;
+    --accent1: #1e201a;
+    --accent2: #44603b;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: "bebas Neue", serif;
+    color: var(--secondary-color)
+}
+
+h2 {font-size: 35px;}
+
+p {
+    font-family: "Roboto", serif;
+    color: var(--accent1);
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    background-color: rgb(30, 32, 26, 0.8);
+    padding: 0 125px 0;
+    margin: 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1100px;
+    background-color: rgba(68, 96, 59, 0.7);
+    padding: 10px;
+}
+
+.hero article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.hero p {color: white;}
+
+.section2 img {
+    width: 600px;
+}
+
+.sociallinks img {
+    width: 50px;
+}
