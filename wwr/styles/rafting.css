@@ -137,3 +137,93 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.contact-us h1 {
+    font-size: 50px;
+    color: var(--primary-color);
+    margin-left: 200px;
+}
+
+.contact-us p {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.employee {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.contact-flex {
+    display: flex;
+}
+
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.employee img {
+    width: 150px;
+    height: auto;
+}
+
+.message {
+    background-color: rgba(30, 32, 26, 0.158);
+    padding: 0 0 40px;
+}
+
+.message h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+form {
+    margin: 0 20px;
+    font-family: "Roboto", arial;
+    font-size: 1.2em;
+}
+
+input {
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.form-grid {
+    display: grid;
+}
+
+.column1 {
+    width: 250px;
+    margin: 15px;
+}
+
+.radio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 10px 10px;
+}
+
+.column2 {
+    width: 600px;
+    margin: 5px 15px;
+}
+
+.column3 {
+    grid-template-columns: 48px 1fr;
+}
+
+button {
+    margin: 20px 15px 0;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: var(--accent2);
+}
