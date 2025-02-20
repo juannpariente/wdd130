@@ -12,7 +12,7 @@ body {
 
 h1, h2 {
     font-family: "bebas Neue", serif;
-    color: var(--secondary-color)
+    color: var(--primary-color)
 }
 
 h2 {font-size: 35px;}
@@ -39,7 +39,7 @@ p, figcaption {
     left: 50%;
     transform: translateX(-50%);
     font-size: 3vw;
-    background-color: rgb(30, 32, 26, 0.8);
+    background-color: #ffffff9a;
     padding: 0 6vw 0;
     margin: 0;
 }
@@ -110,6 +110,10 @@ header nav a {
     text-decoration: none;
     font-family: "Roboto", serif;
     color: white;
+}
+
+header nav a:hover {
+    background-color: var(--primary-color);
 }
 
 .section-history {
@@ -226,4 +230,61 @@ button {
 
 button:hover {
     background-color: var(--accent2);
+}
+
+.cta {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40vw;
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #0030908a;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cta a {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-family: "Roboto", arial;
+}
+
+.cta a:hover {
+    background-color: var(--accent2);
+}
+
+.home-content {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content img {
+    width: 500px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.back-form {
+    position: relative;
+}
+
+.newsletter-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffb6;
+    padding: 0 25px 25px;
 }
